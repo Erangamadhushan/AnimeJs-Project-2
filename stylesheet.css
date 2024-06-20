@@ -154,3 +154,14 @@ h2 span {
     min-height:30vh;
     background:#6d7f24;
 }
+
+.div3 .div3_image {
+    position:relative;
+    max-width:700px;
+    min-height:25vh;
+}
+.div3 .div3_content {
+    position:relative;
+    width:400px;
+    min-height:25vh;
+}
