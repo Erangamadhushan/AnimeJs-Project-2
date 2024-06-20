@@ -113,13 +113,13 @@ h2 span {
     border:none;
     border-radius:40px;
     overflow:hidden;
-    transform:translateX(-200px);
+    transform:translateX(-300px);
     opacity:0;
-    /* transition:all 1s;
-    transition-delay:calc(1s*var(--i)); */
+    transition:all 1s;
+    transition-delay:calc(1s*var(--i));
     background-image:linear-gradient(135deg,#b5d43c,#ecff9f);
 }
-.courses .show {
+.div2 .courses.show {
     transform:translateX(0px);
     opacity:1;
 }
