@@ -108,7 +108,7 @@ h2 span {
 .div2 .courses {
     width:300px;
     height:300px;
-    margin-top:50px;
+    margin-top:80px;
     position:relative;
     border:none;
     border-radius:40px;
@@ -147,4 +147,10 @@ h2 span {
     justify-content:center;
     align-items:center;
     color:#fff;
+}
+.div3 {
+    position:relative;
+    width:100%;
+    min-height:30vh;
+    background:#6d7f24;
 }
