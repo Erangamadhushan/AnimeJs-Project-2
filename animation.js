@@ -13,10 +13,10 @@ const observer = new IntersectionObserver((entries,observer) => {
     threshold:0.6,
 })
 let courses = document.querySelectorAll('.courses');
-let div3_image = document.querySelector('.div3 .div3_image');
-let div3_content = document.querySelector('.div3 .div_content');
+let div3_image = document.querySelector('div3_image');
+let div3_content = document.querySelector('.div_content');
 
-const observer1 = new IntersectionObserver(entry => {
+const observer1 = new IntersectionObserver((entry,observer) => {
     if(entry.isIntersecting) {
         entry.target.classList.add('show1');
     }
@@ -25,7 +25,7 @@ const observer1 = new IntersectionObserver(entry => {
     rootMargin:'100px',
     threshold:0.5,
 });
-const observer2 = new IntersectionObserver(entry => {
+const observer2 = new IntersectionObserver((entry,observer) => {
     if(entry.isIntersecting) {
         entry.target.classList.add('show1');
     }
