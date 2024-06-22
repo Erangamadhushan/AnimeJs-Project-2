@@ -45,3 +45,5 @@ window.addEventListener('scroll',() => {
     observer2.observe(div3_content);
 })
 
+const 
+
