@@ -46,13 +46,22 @@ window.addEventListener('scroll',() => {
 //     observer2.observe(div3_content);
 // })
 
-const div3_img = document.querySelector('.div3 .div3_image');
-const div3_con = document.querySelector('.div3 .div_content');
-let inheight = window.innerHeight/12*10;
+const div3_img = document.querySelector('.div3_image');
+const div3_con = document.querySelector('.div3_content');
+
 window.addEventListener('scroll',()=>{
-    let currentHeight = window.getBoundingClientRect().top;
+    let inheight = window.innerHeight/12*11;
+    let currentHeight = div3_img.getBoundingClientRect().top;
     if(inheight > currentHeight){
         div3_img.classList.add('show1');
+        
+    }
+});
+window.addEventListener('scroll',() => {
+    let inheight1 = window.innerHeight/12*11;
+    let currentHeight1 = div3_con.getBoundingClientRect().top;
+    if(inheight1 > currentHeight1) {
+        div3_con.classList.add('show1');
     }
 })
 

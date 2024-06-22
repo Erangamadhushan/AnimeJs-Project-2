@@ -199,7 +199,7 @@ h2 span {
     transform:translateY(200px);
     opacity:0.4;
     transition:all 1s;
-    transition-delay:0.75s;
+    transition-delay:0.1s;
 }
 .div3_image.show1,.div3_content.show1 {
     transform:translateY(0px);
