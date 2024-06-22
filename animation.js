@@ -45,5 +45,13 @@ window.addEventListener('scroll',() => {
     observer2.observe(div3_content);
 })
 
-const 
+const div3_img = document.querySelector('.div3 .div3_image');
+const div3_con = document.querySelector('.div3 .div_content');
+let inheight = window.innerHeight/12*10;
+window.addEventListener('scroll',()=>{
+    let currentHeight = window.getBoundingClientRect().top;
+    if(inheight > currentHeight){
+        div3_img.classList.add('show1');
+    }
+})
 
