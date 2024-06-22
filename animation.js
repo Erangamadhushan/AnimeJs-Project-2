@@ -64,4 +64,8 @@ window.addEventListener('scroll',() => {
         div3_con.classList.add('show1');
     }
 })
+let nav = document.querySelector('.nav');
+window.addEventListener('scroll',()=>{
+    nav.classList.add('activate');
+})
 
