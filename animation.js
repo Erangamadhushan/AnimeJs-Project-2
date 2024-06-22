@@ -58,7 +58,7 @@ window.addEventListener('scroll',()=>{
     }
 });
 window.addEventListener('scroll',() => {
-    let inheight1 = window.innerHeight/12*11;
+    let inheight1 = window.innerHeight/15*13;
     let currentHeight1 = div3_con.getBoundingClientRect().top;
     if(inheight1 > currentHeight1) {
         div3_con.classList.add('show1');
