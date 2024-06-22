@@ -111,13 +111,17 @@ h2 span {
     margin-top:80px;
     position:relative;
     border:none;
-    border-radius:40px;
+    border-radius:50%;
+    cursor:pointer;
     overflow:hidden;
     transform:translateX(-300px);
     opacity:0;
     transition:all 1s;
     transition-delay:calc(1s*var(--i));
     background-image:linear-gradient(135deg,#b5d43c,#ecff9f);
+}
+.div2 .courses:hover {
+    opacity:0.8;
 }
 .div2 .courses.show {
     transform:translateX(0px);
@@ -147,6 +151,11 @@ h2 span {
     justify-content:center;
     align-items:center;
     color:#fff;
+}
+.div2 .courses .textcontent:hover {
+    opacity:0.8;
+    font-size:1.2vw;
+    color:#ff3;
 }
 
  .div3 {
